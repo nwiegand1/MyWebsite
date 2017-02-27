@@ -1,6 +1,6 @@
 body{
 	font-family: 'Lato', sans-serif;
-	padding: 100px;
+	padding: 10px;
 }
 
 h1 {
@@ -10,11 +10,13 @@ h1 {
 
 h2{
 	text-align: center;
-	text-
+	color: #4286f4;
+	padding: 10px;
 }
 
 #about{
 	text-align:left;
+	  border: 5px solid #FFF;
 	
 }
 
@@ -57,7 +59,7 @@ h2{
 /*     text-decoration: none; */
 }
 
-li a {
+#header li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -65,11 +67,11 @@ li a {
 	text-decoration;
 }
 
-li a:hover {
+#header li a:hover {
     background-color: white;
 }
 
-li a.active {
+#header li a.active {
 
    	 -moz-appearance: none;
 		-webkit-appearance: none;
@@ -94,24 +96,24 @@ li a.active {
 		font-size: 0.725em;
 }
 
-li a.active:before {
+#header li a.active:before {
 	margin-right: 0.5em;
 }
 
-li a.active.fit {
+#header li a.active.fit {
 	display: block;
 	margin: 0 0 1em 0;
 	width: 100%;
 }
 
-li a.active.big {
+#header li a.active.big {
 	font-size: 0.8em;
 			padding: 0 2.5em 0 2.875em;
 			height: 3.75em;
 			line-height: 3.75em;
 }
 
-li a.active:disabled {
+#header li a.active:disabled {
 	-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
