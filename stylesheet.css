@@ -17,6 +17,8 @@ h2{
 #about{
 	text-align:left;
 	 border: 5px solid #FFF;
+	 display: inline-block;
+	white-space: nowrap;
 }
 
 #myPic{
@@ -37,10 +39,12 @@ h5{
 	list-style-type: none;
 	padding: 10px;
 	text-align: left;
+	
 }
 
 #projects li{
 	padding: 10px;
+	
 }
 
 a:link{
