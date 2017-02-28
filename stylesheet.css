@@ -16,8 +16,21 @@ h2{
 
 #about{
 	text-align:left;
-	  border: 5px solid #FFF;
-	
+	 border: 5px solid #FFF;
+}
+
+#myPic{
+	border-radius: 9px;
+	margin: 4rem;
+}
+
+h5{
+	text-syle: bold;
+}
+
+
+#projects{
+	margin: 2rem;
 }
 
 #projects ul{
@@ -30,9 +43,25 @@ h2{
 	padding: 10px;
 }
 
+a:link{
+	text-decoration: none;
+	color: #4286f4;
+}
+
+a:visited{
+	color: #4286f4;
+}
+
+a:hover {
+    color: #f4426e;
+}
 
 
-
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
 
 
