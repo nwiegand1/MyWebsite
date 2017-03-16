@@ -96,6 +96,10 @@ h5{
 	
 }
 
+/*#projects #ff{
+	list-style-image: url(fieldman.png);
+}*/
+
 a:link{
 	text-decoration: none;
 	color: #4286f4;
